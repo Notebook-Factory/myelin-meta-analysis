@@ -1,0 +1,35 @@
+#######################################################################################
+# A default configuration that will be loaded for all jupyter books
+# See the documentation for help and more options: 
+# https://jupyterbook.org/customize/config.html
+
+#######################################################################################
+# Book settings
+title                       : The quest for measuring myelin with MRI - An interactive meta-analysis  # The title of the book. Will be placed in the left navbar.
+author                      : Matteo Mancini # The author of the book
+copyright                   : "2020"  # Copyright year to be placed in the footer
+logo                        : logo.png  # A path to the book logo
+exclude_patterns            : [_build, Thumbs.db, .DS_Store, "**.ipynb_checkpoints"]
+html:
+  favicon                   : icon.png  # A path to a favicon image
+  use_repository_button     : true
+  use_issues_button         : true
+  home_page_in_navbar       : true
+  extra_footer              : Created by the <a href="https://github.com/Notebook-Factory">Notebook Factory team.</a>
+  baseurl: ""
+  comments:
+    hypothesis: true
+
+repository:
+  url                       : https://github.com/Notebook-Factory/myelin-meta-analysis  # Online location of your book
+  branch                    : master  # Which branch of the repository should be used when creating links (optional)
+  
+launch_buttons:
+  notebook_interface: "jupyterlab"  # or "classic"
+  binderhub_url: "https://mybinder.org" 
+
+launch_buttons:
+  thebe                  : true
+
+execute:
+  execute_notebooks: 'off'

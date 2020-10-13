@@ -1,0 +1,25 @@
+- file: intro
+  numbered: false
+
+- part: Selecting the studies
+  chapters:
+  - file: /01/selection
+
+- part: A closer look
+  chapters:
+  - file: /02/closer_look
+
+- part: Using meta-analysis tools 
+  chapters:
+  - file: /03/meta_analysis
+
+- part: Other factors to consider
+  chapters:
+  - file: /04/other_factors
+
+- part: External links
+  chapters:
+  - url: https://github.com/neurolibre/myelin-meta-analysis
+    title: NeuroLibre repository 
+  - url: https://www.biorxiv.org/content/10.1101/2020.07.13.200972v3
+    title: Bioarxiv preprint 
