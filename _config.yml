@@ -21,7 +21,7 @@ html:
     hypothesis: true
 
 repository:
-  url                       : https://github.com/Notebook-Factory/myelin-meta-analysis  # Online location of your book
+  url                       : https://github.com/neurolibre/myelin-meta-analysis  # Online location of your book
   branch                    : master  # Which branch of the repository should be used when creating links (optional)
   
 launch_buttons:
