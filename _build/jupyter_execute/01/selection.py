@@ -30,7 +30,7 @@ import rpy2.robjects
 
 # ### Figure 1
 
-# In[2]:
+# In[33]:
 
 
 config={'showLink': False, 'displayModeBar': False}
@@ -92,6 +92,25 @@ fig1.update_layout(title = dict(text="Figure 1 - Review methodology"),
                    font_size=10,
                   margin=dict(l=0))
 
+fig1.layout.images = [dict(
+        source="https://raw.githubusercontent.com/notebook-factory/brand/main/nbf_logo.png",
+        xref="paper", yref="paper",
+        x=0.0, y= 0.0,
+        sizex=0.1, sizey=0.1,
+        opacity = 0.8
+      )]
+fig1.add_annotation(
+        x=0.04,
+        y=-0.08,
+        xref="paper",
+        yref="paper",
+        text="<a href=\"https://neurolibre.com\" target=\"_blank\" style=\"color:gray!important\">Notebook Factory</a>",
+        showarrow = False,
+       font=dict(
+        size=8,
+        color="gray"
+    ))
+    
 plot(fig1, filename = 'fig1.html',config = config)
 display(HTML('fig1.html'))
 
