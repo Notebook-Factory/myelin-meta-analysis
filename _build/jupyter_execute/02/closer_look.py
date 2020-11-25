@@ -10,7 +10,7 @@
 # To have a look at both sample size and effect size for each measure, we prepared an interactive bubble chart, where the size of each bubble is proportional to the sample size. You can hover on the bubbles to obtain additional details.
 # ```
 
-# In[2]:
+# In[1]:
 
 
 import numpy as np
@@ -25,6 +25,9 @@ from plotly.subplots import make_subplots
 
 from rpy2.robjects.packages import importr
 import rpy2.robjects
+import subprocess
+subprocess.call('curl https://raw.githubusercontent.com/Notebook-Factory/brand/main/insertLogo.py --output /tmp/insertLogo.py', shell=True)
+get_ipython().run_line_magic('run', '/tmp/insertLogo.py')
 
 
 # ### Figure 3
@@ -131,7 +134,7 @@ fig3.update_layout(
     height=500
 )
 
-plot(fig3, filename = 'fig3.html',config = config)
+plot(insertLogo(fig3,0.05,0.05,1,-0.25,-0.11,0.052), filename = 'fig3.html',config = config)
 display(HTML('fig3.html'))
 
 
@@ -145,7 +148,7 @@ display(HTML('fig3.html'))
 
 # ### Figure 4
 
-# In[4]:
+# In[5]:
 
 
 filtered_df=filtered_df.sort_values(by=['Study','Measure'])
@@ -192,6 +195,6 @@ fig4 = fig4.update_layout(
 # Save (pickle) filtered dataframe
 # filtered_df.to_pickle('filtered_df.pkl')
 
-plot(fig4, filename = 'fig4.html',config = config)
+plot(insertLogo(fig4,0.04,0.04,1,-0.055,-0.11,0.045), filename = 'fig4.html',config = config)
 display(HTML('fig4.html'))
 

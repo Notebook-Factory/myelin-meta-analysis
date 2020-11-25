@@ -26,11 +26,14 @@ from plotly.subplots import make_subplots
 
 from rpy2.robjects.packages import importr
 import rpy2.robjects
+import subprocess
+subprocess.call('curl https://raw.githubusercontent.com/Notebook-Factory/brand/main/insertLogo.py --output /tmp/insertLogo.py', shell=True)
+get_ipython().run_line_magic('run', '/tmp/insertLogo.py')
 
 
 # ### Figure 1
 
-# In[33]:
+# In[3]:
 
 
 config={'showLink': False, 'displayModeBar': False}
@@ -90,28 +93,9 @@ fig1.update_layout(title = dict(text="Figure 1 - Review methodology"),
                    width=650,
                    height=450,
                    font_size=10,
-                  margin=dict(l=0))
-
-fig1.layout.images = [dict(
-        source="https://raw.githubusercontent.com/notebook-factory/brand/main/nbf_logo.png",
-        xref="paper", yref="paper",
-        x=0.0, y= 0.0,
-        sizex=0.1, sizey=0.1,
-        opacity = 0.8
-      )]
-fig1.add_annotation(
-        x=0.04,
-        y=-0.08,
-        xref="paper",
-        yref="paper",
-        text="<a href=\"https://neurolibre.com\" target=\"_blank\" style=\"color:gray!important\">Notebook Factory</a>",
-        showarrow = False,
-       font=dict(
-        size=8,
-        color="gray"
-    ))
+                   margin=dict(l=0))
     
-plot(fig1, filename = 'fig1.html',config = config)
+plot(insertLogo(fig1,0.07,0.07,1.1,0,-0.113,0.07), filename = 'fig1.html',config = config)
 display(HTML('fig1.html'))
 
 
@@ -176,10 +160,10 @@ fig2 = fig2.update_layout(
         l=0,
         r=0,
         t=0,
-        b=0,
+        b=45,
     )
 )
 
-plot(fig2, filename = 'fig2.html',config = config)
+plot(insertLogo(fig2,0.03,0.03,0.99,-0.02,-0.093,0.03), filename = 'fig2.html',config = config)
 display(HTML('fig2.html'))
 
