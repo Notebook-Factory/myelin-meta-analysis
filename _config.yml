@@ -15,7 +15,7 @@ html:
   use_repository_button     : true
   use_issues_button         : true
   home_page_in_navbar       : true
-  extra_footer              : Created by the <a href="https://github.com/Notebook-Factory">Notebook Factory team.</a>
+  extra_footer              : The template for this analysis is available at <a href="https://github.com/Notebook-Factory/myelin-meta-analysis">Notebook Factory</a> and it is free to reuse.
   baseurl: ""
   comments:
     hypothesis: true
