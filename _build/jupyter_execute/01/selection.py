@@ -26,11 +26,14 @@ from plotly.subplots import make_subplots
 
 from rpy2.robjects.packages import importr
 import rpy2.robjects
+import subprocess
+subprocess.call('curl https://raw.githubusercontent.com/Notebook-Factory/brand/main/insertLogo.py --output /tmp/insertLogo.py', shell=True)
+get_ipython().run_line_magic('run', '/tmp/insertLogo.py')
 
 
 # ### Figure 1
 
-# In[2]:
+# In[3]:
 
 
 config={'showLink': False, 'displayModeBar': False}
@@ -90,9 +93,9 @@ fig1.update_layout(title = dict(text="Figure 1 - Review methodology"),
                    width=650,
                    height=450,
                    font_size=10,
-                  margin=dict(l=0))
-
-plot(fig1, filename = 'fig1.html',config = config)
+                   margin=dict(l=0))
+    
+plot(insertLogo(fig1,0.07,0.07,1.1,0,-0.113,0.07), filename = 'fig1.html',config = config)
 display(HTML('fig1.html'))
 
 
@@ -157,10 +160,10 @@ fig2 = fig2.update_layout(
         l=0,
         r=0,
         t=0,
-        b=0,
+        b=45,
     )
 )
 
-plot(fig2, filename = 'fig2.html',config = config)
+plot(insertLogo(fig2,0.03,0.03,0.99,-0.02,-0.093,0.03), filename = 'fig2.html',config = config)
 display(HTML('fig2.html'))
 
