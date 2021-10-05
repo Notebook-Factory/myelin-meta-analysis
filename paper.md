@@ -24,22 +24,22 @@ authors:
     orcid: 0000-0002-8480-5230
     affiliation: "2, 8"
 affiliations:
- - name: Department of Neuroscience, Brighton and Sussex Medical School, University of Sussex, United Kingdom;
-   index: 1
- - name: NeuroPoly Lab, Institute of Biomedical Engineering, Polytechnique Montreal, Montreal, Canada
-   index: 2
- - name: CUBRIC, Cardiff University, United Kingdom
-   index: 3
- - name: Functional Neuroimaging Unit, CRIUGM, Université de Montréal, Canada
-   index: 4
- - name: Neuroimaging Laboratory, Fondazione Santa Lucia, Italy
-   index: 5 
- - name: Wellcome Centre for Integrative Neuroimaging (WIN FMRIB), University of Oxford, United Kingdom
-   index: 6 
- - name: Big Data Institute, University of Oxford, United Kingdom
-   index: 7
-- name: Montreal Heart Institute, University of Montréal, Montréal, Canada
-   index: 8
+  - name: Department of Neuroscience, Brighton and Sussex Medical School, University of Sussex, United Kingdom;
+    index: 1
+  - name: NeuroPoly Lab, Institute of Biomedical Engineering, Polytechnique Montreal, Montreal, Canada
+    index: 2
+  - name: CUBRIC, Cardiff University, United Kingdom
+    index: 3
+  - name: Functional Neuroimaging Unit, CRIUGM, Université de Montréal, Canada
+    index: 4
+  - name: Neuroimaging Laboratory, Fondazione Santa Lucia, Italy
+    index: 5 
+  - name: Wellcome Centre for Integrative Neuroimaging (WIN FMRIB), University of Oxford, United Kingdom
+    index: 6 
+  - name: Big Data Institute, University of Oxford, United Kingdom
+    index: 7
+  - name: Montreal Heart Institute, University of Montréal, Montréal, Canada
+    index: 8
 date: 5 October 2021
 bibliography: paper.bib
 ---
