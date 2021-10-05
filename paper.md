@@ -1,7 +1,7 @@
 ---
 title: 'An interactive meta-analysis of MRI biomarkers of myelin'
 tags:
-  - Quantitative MRI 
+  - Quantitative MRI
   - Myelin imaging
   - Meta analysis
 authors:
@@ -33,14 +33,14 @@ affiliations:
   - name: Functional Neuroimaging Unit, CRIUGM, Université de Montréal, Canada
     index: 4
   - name: Neuroimaging Laboratory, Fondazione Santa Lucia, Italy
-    index: 5 
+    index: 5
   - name: Wellcome Centre for Integrative Neuroimaging (WIN FMRIB), University of Oxford, United Kingdom
-    index: 6 
+    index: 6
   - name: Big Data Institute, University of Oxford, United Kingdom
     index: 7
   - name: Montreal Heart Institute, University of Montréal, Montréal, Canada
     index: 8
-date: 5 October 2021
+date: 05 October 2021
 bibliography: paper.bib
 ---
 
