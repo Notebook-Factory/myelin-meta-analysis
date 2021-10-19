@@ -3,5 +3,5 @@ pandas == 0.25.3
 plotly == 4.8.1
 rpy2 == 3.3.4
 xlrd == 1.2.0
-jupyter-book
+jupyter-book == 0.8.2
 jupytext
