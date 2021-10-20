@@ -26,7 +26,7 @@ repository:
   
 launch_buttons:
   notebook_interface: "jupyterlab"  # or "classic"
-  binderhub_url: "https://mybinder.org" 
+  binderhub_url: "https://binder.conp.cloud/" 
 
 launch_buttons:
   thebe                  : true
