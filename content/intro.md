@@ -5,7 +5,6 @@ _Matteo Mancini, Agah Karakuzu, Thomas Nichols, Julien Cohen-Adad, Mara Cercigna
  
 <br>
 
-**Test - see if this will be included in the latest book built by RoboNeuro.** 
 ````{margin}
 <center><h1>📝</h1></center>
 <b><a href="https://www.biorxiv.org/content/10.1101/2020.07.13.200972v4" target="_blank">The full preprint is available on bioRxiv.</a></b>
