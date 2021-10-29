@@ -1,6 +1,6 @@
 #######################################################################################
 # A default configuration that will be loaded for all jupyter books
-# See the documentation for help and more options: 
+# See the documentation for help and more options:
 # https://jupyterbook.org/customize/config.html
 
 #######################################################################################
@@ -22,8 +22,9 @@ html:
 
 repository:
   url                       : https://github.com/Notebook-Factory/myelin-meta-analysis  # Online location of your book
-  branch                    : main  # Which branch of the repository should be used when creating links (optional)
-  
+  path_to_book              : "content"  # A path to your book's folder, relative to the repository root.
+  branch                    : main  # Which branch of the repository should be used when creating links
+
 launch_buttons:
   notebook_interface: "jupyterlab"  # or "classic"
   binderhub_url: "https://binder.conp.cloud"
