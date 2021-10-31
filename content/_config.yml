@@ -28,7 +28,7 @@ repository:
 launch_buttons:
   notebook_interface: "jupyterlab"  # or "classic"
   binderhub_url: "https://binder.conp.cloud"
-  thebe: true
+  thebe: false
 
 execute:
   execute_notebooks: 'force'
