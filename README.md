@@ -10,7 +10,6 @@ This repository generates the interactive figures and the meta-analysis results 
 ###  📎[The full preprint is available on bioRxiv.](https://www.biorxiv.org/content/10.1101/2020.07.13.200972v2)
 
 
-
 ## 🖥 Usage instructions 
 
 This Jupyter Book is published by NeuroLibre at <a href="https://neurolibre.github.io/myelin-meta-analysis">https://neurolibre.github.io/myelin-meta-analysis</a>, where all the interactive content is made readily available!
