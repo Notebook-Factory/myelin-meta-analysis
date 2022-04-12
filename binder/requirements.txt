@@ -1,4 +1,4 @@
-jupyter-book==0.10.0
+jupyter-book
 jupytext
 numpy==1.18.4
 pandas==0.25.3
