@@ -24,7 +24,6 @@ The required packages can be installed using pip:
 ```
 pip install -r requirements.txt
 ```
-
 ---
 **Note:**
 
