@@ -48,7 +48,7 @@ bibliography: paper.bib
 
 In this work, we explore important aspect of quantitative magnetic resonance imaging (qMRI): validation [@jcohen:2018]. Focusing specifically on myelin measures, we show the results of our meta-analysis comparing quantitative MRI with histology.
 
-![Treemap chart of the studies considered for the meta-analysis, organized by MRI measure. The color of each box represents the reported R2 value while the size box is proportional to the sample size.\label{fig:fig1}](https://github.com/Notebook-Factory/myelin-meta-analysis/raw/main/fig1.png)
+![Treemap chart of the studies considered for the meta-analysis, organized by MRI measure. The color of each box represents the reported R2 value while the size box is proportional to the sample size.\label{fig:fig1}](https://github.com/Notebook-Factory/myelin-meta-analysis/raw/main/featured.png)
 
 **Why myelin?:** Myelin is a key component of the central nervous system. The myelin sheaths insulate axons with a triple effect: allowing fast electrical conduction, protecting the axon, and providing trophic support. The conduction velocity regulation has become an important research topic, with evidence of activity-dependent myelination as an additional mechanism of plasticity. Myelin is also relevant from a clinical perspective, given that demyelination is often observed in several neurological diseases such as multiple sclerosis.
 
